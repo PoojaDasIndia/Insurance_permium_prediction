@@ -50,6 +50,8 @@ def predict():
         # Prediction
         result = model.predict(data_model)[0]
 
+        result= round(float(result), 2)
+
         # 3. Display
 
         return render_template('index.html', Predict_Text=f'Predict Premium is {result}')
