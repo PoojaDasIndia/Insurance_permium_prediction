@@ -1,36 +1,42 @@
 body {
 		  font-family: Arial, Helvetica, sans-serif;
-		  background-color: #52796f;
+		  background-color: #f9dbbd;
 	}
 
-h1{color: #0d3b66}
+h1{color: #450920}
 
 * {
     box-sizing: border-box;
     }
 
 		/* Add padding to containers */
-.container
+.containers
     {
-			width:650px;
-			box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-			border: 1.50px solid rgba(20, 33, 61, 0.9);
-			margin: 0px 5px 0px 350px;
-			padding: 0.5px 0.5px;
-			background-color: white;
-			border-radius: 10px;
+			width:200px;
+			box-shadow:
+			inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+			margin: 50px 25px 25px 450px;
+			padding: 5px 5px;
+			background-color: #ffa5ab;
+			border-radius: 15px;
 			justify-content: center;
             align-items: center;
             flex-direction: column;
 			text-align: justify;
     }
 
+.radio
+      {
+        font-size:14x
+       }
+
 h6
     {
        color:black;
 	   margin: 0px 0px 0px 0px;
 	   text-align: right;
-	   font-size:8x;
+	   font-size:10x;
 	}
 
 
@@ -43,28 +49,28 @@ hr
 .text
     {
 		width: 350px;
-	    height: 30px;
+	    height: 35px;
 		margin: 0px 2px 0px 0px;
 		box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 		border: 1.25px solid rgba(10, 117, 110, 0.9);
 		background: #D9D9D9;
-		border-radius: 12px;
-		font-size:12px;
+		border-radius: 10px;
+		font-size:18px;
 		resize:none;
     }
 
 .label
     {
-    	color: #14213d;
+    	color: #450920;
 		text-align: left;
 		font-weight: bold;
-		font-size:14px;
+		font-size:18px;
     }
 
 /* Set a style for the submit button */
 .predictbtn
     {
-	  background-color: #14213d;
+	  background-color: #450920;
 	  color: white;
 	  padding: 5px 5px;
 	  margin: 0px 2px 0px 0px;
@@ -74,7 +80,7 @@ hr
 	  height: 40px;
 	  opacity:0.9;
 	  border-radius: 37px;
-	  font-size:14px;
+	  font-size:16px;
 	}
 
 /* Set for button */
@@ -87,14 +93,14 @@ hr
 /* for result*/
 .result
     {
-	  background-color: #61a5c2;
+	  background-color: #a53860;
 	  text-align: center;
-	  font-size:16x;
+	  font-size:20x;
 	  font-weight:bold;
-	  color:#780000;
+	  color:white;
 	  font-family: Arial, Helvetica, sans-serif;
 	  opacity: 0.80;
-	  width:590px;
+	  width:550px;
 	  height: 20x;
 	  border-radius: 30px;
 	  padding: 0.5px 0.5px;
