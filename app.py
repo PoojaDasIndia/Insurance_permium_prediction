@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import sklearn
 import gunicorn
+import xgboost
 
 
 # load our model file
